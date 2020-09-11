@@ -1,0 +1,60 @@
+ 
+body {
+  background: url(https://avatanplus.com/files/resources/original/5ca12773948c5169d5821b98.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Amatic SC', cursive;
+}
+
+h1 { 
+  background-color: rgba(0, 0, 0, 0.377);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 50px;  
+  opacity: 1;
+}
+
+h1:hover {
+  color: rgb(9, 63, 30);
+  -ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+  transform: scale(1.2);
+	transition: all 1s linear;
+	-webkit-transition: all 1s linear;
+	-moz-transition: all 1s linear;
+  -ms-transition: all 1s linear;
+  opacity: 0.5;
+}
+
+ul {
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.479);
+  color: black;
+  font-size: 40px;
+  text-align: left;
+}
+
+li {
+  text-shadow: none;
+  list-style-type: none;
+  color: rgb(126, 126, 126);
+  font-size: 30px;
+  text-align: left;
+}
+
+li:hover {
+  color: whitesmoke;
+}
+
+.img {
+  border-radius: 50%;
+  float: center;
+  object-fit: cover;
+  width: 200px; 
+  height: 200px;
+  opacity: 50%;
+}
+
+.img:hover {
+  opacity: 100%;
+}
